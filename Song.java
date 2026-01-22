@@ -1,14 +1,14 @@
 /**
  * File for a Song class to be used in the Playlist Project
  * @author
- * @version
+ * @version 
  */
 public class Song {
     //Fields-- what information do we want each Song to store?
-
-
-
-
+    private String title;
+    private String artist;
+    private int durationSeconds; 
+    private boolean liked; 
     /**
      * Constructor-- what information needs to be given to make a Song?
      * How will you handle 'liked' songs? It makes sense for a Song not be 'liked' by default
