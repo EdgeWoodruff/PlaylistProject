@@ -75,7 +75,4 @@ public class Playlist {
         }
     }
 
-    public int size() {
-        return songs.size();
-    }
 }
